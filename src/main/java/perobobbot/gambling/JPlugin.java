@@ -17,8 +17,7 @@ public class JPlugin extends ExtensionPlugin {
 
     public static final ImmutableSet<Requirement<?>> REQUIREMENTS = ImmutableSet.of(
             Requirements.IO,
-            Requirements.BANK_SERVICE,
-            Requirements.VIEWER_IDENTITY_SERVICE
+            Requirements.BANK_SERVICE
     );
 
 
